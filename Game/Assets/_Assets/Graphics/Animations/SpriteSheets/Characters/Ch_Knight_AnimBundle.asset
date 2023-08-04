@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41f46f301c6d21248be77c9169cd207a, type: 3}
+  m_Name: Ch_Knight_AnimBundle
+  m_EditorClassIdentifier: 
+  animations:
+  - name: Idle
+    hash: 2081823275
+    frameRate: 4
+    loop: 1
+    sheet:
+    - {fileID: 21300000, guid: 8665edaa33a3bf54a8560e32f546b8f2, type: 3}
+    - {fileID: 21300000, guid: 837f852c39874ae49b21c5247ec6ea20, type: 3}
+    - {fileID: 21300000, guid: 5a89874fdff3658459212d7b7f870c59, type: 3}
+    - {fileID: 21300000, guid: 01f2bd4e090302e4aa1bd9f9c12317c3, type: 3}
+  - name: Run
+    hash: 1748754976
+    frameRate: 12
+    loop: 1
+    sheet:
+    - {fileID: 21300000, guid: ea9d88200e3d0fe40b6cc1b0bc9e25b3, type: 3}
+    - {fileID: 21300000, guid: 2b52177830a5de54d883810fe507a675, type: 3}
+    - {fileID: 21300000, guid: cf199e1cdec38fe41a4f46093966cb34, type: 3}
+    - {fileID: 21300000, guid: 38d753ed8890e8a47b2cf948b90ee29f, type: 3}
+    - {fileID: 21300000, guid: b5c8506cfbadbf24294b4f8f3dedeb71, type: 3}
+    - {fileID: 21300000, guid: ca71bc944762bbc4a80741bccd38dc5c, type: 3}
+    - {fileID: 21300000, guid: 5e1e4251e7cd6b642a77f78b39176da0, type: 3}
+  - name: Fall
+    hash: 1533177906
+    frameRate: 10
+    loop: 1
+    sheet:
+    - {fileID: 21300000, guid: af8635d46d179de44ab89ed40fc24e14, type: 3}
+    - {fileID: 21300000, guid: ff4603508e3544e478443afe8a8c362c, type: 3}
+    - {fileID: 21300000, guid: cd1076d605a681b4384250855674579d, type: 3}
+    - {fileID: 21300000, guid: a337bcda92982ce4eaceb951db697622, type: 3}
+    - {fileID: 21300000, guid: 6d3ceab26ec88244ba9d7e48ac57dbd4, type: 3}
+    - {fileID: 21300000, guid: c73b04f8151b4b04aaf84274387e0656, type: 3}
+    - {fileID: 21300000, guid: c73b04f8151b4b04aaf84274387e0656, type: 3}
+    - {fileID: 21300000, guid: 3eab415fadacb994fa56739f2e75e370, type: 3}
+  - name: Jump
+    hash: 125937960
+    frameRate: 12
+    loop: 1
+    sheet:
+    - {fileID: 21300000, guid: 8b9eff5d6d9c6fe4ea6ba74420626bb2, type: 3}
+    - {fileID: 21300000, guid: 5e849919502e7d441adbc8ec70a128a4, type: 3}
+  - name: Roll
+    hash: -1903714832
+    frameRate: 12
+    loop: 0
+    sheet:
+    - {fileID: 21300000, guid: 35c757758340dec43a87402a97dfa102, type: 3}
+    - {fileID: 21300000, guid: 604ff172c9f275d4fa339f48235f7122, type: 3}
+    - {fileID: 21300000, guid: 33da68ed4a31375408f8069c6a67bce9, type: 3}
+  - name: Slide
+    hash: -1288781466
+    frameRate: 12
+    loop: 0
+    sheet:
+    - {fileID: 21300000, guid: c07596a52fd8c6e499c6671b76572c71, type: 3}
+    - {fileID: 21300000, guid: 9c2b4887d1556d14f823cf94886f3ffe, type: 3}
+    - {fileID: 21300000, guid: 5f35e3c7bfa1c6343ab4d591b71163d0, type: 3}
+  - name: SlideEnd
+    hash: 2061248944
+    frameRate: 12
+    loop: 0
+    sheet:
+    - {fileID: 21300000, guid: c07596a52fd8c6e499c6671b76572c71, type: 3}
+  - name: CrouchTransition
+    hash: -698576047
+    frameRate: 12
+    loop: 0
+    sheet:
+    - {fileID: 21300000, guid: 5746c3b3178d55142aad050145689e00, type: 3}
+  - name: CrouchIdle
+    hash: -2051410350
+    frameRate: 12
+    loop: 0
+    sheet:
+    - {fileID: 21300000, guid: d06a17d75291a2a408222e06702eebf5, type: 3}
+    - {fileID: 21300000, guid: 5746c3b3178d55142aad050145689e00, type: 3}
+  - name: CrouchWalk
+    hash: -737396462
+    frameRate: 12
+    loop: 1
+    sheet:
+    - {fileID: 21300000, guid: e74e7efa7fb6b1b43a45d241b1d41c7d, type: 3}
+    - {fileID: 21300000, guid: 3e30237f044445f439dba3efe9db202b, type: 3}
+    - {fileID: 21300000, guid: 0b9d692cd50f7dd479dc2bc79b2605e9, type: 3}
+    - {fileID: 21300000, guid: 5001d6c4242d1a94c9092bd16dadf8d0, type: 3}
+    - {fileID: 21300000, guid: 3344a087870e9cb43a656cc35222c26f, type: 3}
+    - {fileID: 21300000, guid: f6951e78ddef72240bddb6610890a893, type: 3}
+  - name: FirstAttack
+    hash: 1837845836
+    frameRate: 12
+    loop: 0
+    sheet:
+    - {fileID: 21300000, guid: 2eb693154bbe65647a17530bce70c6bc, type: 3}
+    - {fileID: 21300000, guid: fcd3842695932cd46b1eac2cc6abffef, type: 3}
+    - {fileID: 21300000, guid: 55541221d8e68f2408c519be26a855b7, type: 3}
+    - {fileID: 21300000, guid: df1fd759741ca0646a942e08056c5b76, type: 3}
+    - {fileID: 21300000, guid: 534d6c9f9a10ab643871f3def7928692, type: 3}
+    - {fileID: 21300000, guid: a79cc89edd4f4e94daab270c7961c4fc, type: 3}
+  - name: SecondAttack
+    hash: -477112770
+    frameRate: 12
+    loop: 0
+    sheet:
+    - {fileID: 21300000, guid: 3ccc2d43fe6fca2439e794d3f97e02a9, type: 3}
+    - {fileID: 21300000, guid: 90343837479a7ee42a5dbe300bccae67, type: 3}
+    - {fileID: 21300000, guid: bf6b58d8790748442992c95eebf4d808, type: 3}
+    - {fileID: 21300000, guid: 7cf18ef2b8056574b87feb2d958d5d3a, type: 3}
+    - {fileID: 21300000, guid: ca6452cdaa1a85846a45f4cda2df6f42, type: 3}
+    - {fileID: 21300000, guid: 5252e4240f9cb7844b67927e72ace1c2, type: 3}
+    - {fileID: 21300000, guid: 1ae2e28e68f507d43b6953f05e02baaf, type: 3}
+  - name: CrouchAttack
+    hash: 388873550
+    frameRate: 12
+    loop: 0
+    sheet:
+    - {fileID: 21300000, guid: e1d8ac7ac75c395449cab766f0214f08, type: 3}
+    - {fileID: 21300000, guid: 47830c64f3ebe1c42b436f6a605a8164, type: 3}
+    - {fileID: 21300000, guid: 50ce0e4b9a3d3654ea35b87f5ca5e008, type: 3}
+    - {fileID: 21300000, guid: aec89f6d14d3aaa4183d7b27f60ab557, type: 3}
+  - name: Wallslide
+    hash: 1805019387
+    frameRate: 12
+    loop: 1
+    sheet:
+    - {fileID: 21300000, guid: 47a1b14856418864580f1f905c68445e, type: 3}
+  - name: Hurt
+    hash: 1740614436
+    frameRate: 12
+    loop: 0
+    sheet:
+    - {fileID: 21300000, guid: e481889b85620da4eaffc6865392b2cb, type: 3}
+    - {fileID: 21300000, guid: 7bd7e8db17d86c246843ea1aab15c9cb, type: 3}
+    - {fileID: 21300000, guid: bebdaddb46051a04aa0d610d95a4faff, type: 3}
+  - name: Die
+    hash: 20298039
+    frameRate: 12
+    loop: 0
+    sheet:
+    - {fileID: 21300000, guid: c4a7a24b1d67bd843b22c226a4caea5d, type: 3}
+    - {fileID: 21300000, guid: 284e8017275d47240a2cba2e84ba63be, type: 3}
+    - {fileID: 21300000, guid: 5158e06cf74733a47beab9ff8159d5ed, type: 3}
+    - {fileID: 21300000, guid: 53a75526794fb6c4cab4840acb3fd0b6, type: 3}
+    - {fileID: 21300000, guid: 707078ad39610cd49b2a5747a1de69bb, type: 3}
+    - {fileID: 21300000, guid: d59230bc62fd4dd4f996a98d25e83f78, type: 3}
+    - {fileID: 21300000, guid: e58158e17dced024a82dc92c594942e3, type: 3}
